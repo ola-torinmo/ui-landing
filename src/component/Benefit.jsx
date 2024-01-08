@@ -6,9 +6,9 @@ import be3 from '../assets/be3.svg';
 const Benefit = () => {
   return (
     <div className='w-full bg-white '>
-        <h1 className="text-[#009387] text-center text-3xl ">Here are some benefits of working with us</h1>
-        <p className='text-[#009387] text-center text-base mt-3'>Asides our track record of great design solutions and professionalism <br/> here some advantages of trusting us</p>
-        <div className='py-[80px] px-[150px] flex flex-col md:flex-row'>
+        <h1 className="text-[#009387] text-center text-3xl md:pl-[00px] pl-[50px] ">Here are some benefits of working with us</h1>
+        <p className='text-[#009387] text-center text-base mt-3 md:pl-[00px] pl-[50px]'>Asides our track record of great design solutions and professionalism <br/> here some advantages of trusting us</p>
+        <div className='py-[80px] md:px-[150px] pl-[80px] flex flex-col md:flex-row'>
             
 
             <div class="w-[280px] h-[280px] p-6 bg-[#C3C3C31A] border border-gray-200 rounded-lg  ">
@@ -19,7 +19,7 @@ const Benefit = () => {
                 <p class="mb-3 text-xs text-center ">The winning UI/UX provides your customers with compelling content and user friendly navigation. This results in customer growth.</p>
                 
             </div>
-            <div class="w-[280px] h-[280px] p-6 bg-[#C3C3C31A] border border-gray-200 rounded-lg mx-[80px] ">
+            <div class="w-[280px] h-[280px] p-6 bg-[#C3C3C31A] border border-gray-200 rounded-lg md:mx-[80px] md:my-[0px] my-[80px] ">
                 <img src={be2} className='mx-auto' />
                 
                  <h1 class="mb-2 text-xl text-center font-semibold tracking-tight text-[#2484DC] ">Greater ROI</h1>

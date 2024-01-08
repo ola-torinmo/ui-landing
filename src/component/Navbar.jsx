@@ -10,7 +10,7 @@ const Navabar = ()=>{
 
     return(
         <div className="w-full h-[70px] bg-white  ">
-            <div className='md:max-w-[1028px] max-w-[600px] m-auto w-full h-full flex justify-between items-center md:px-0 px-6'>
+            <div className='md:max-w-[1028px] max-w-[600px] m-auto  h-full flex justify-between items-center  px-[0px]'>
                 <img src={alogo} className="pt-5"/>
                 <div className="hidden md:flex items-center">
                     {/* <ul className="flex gap-6">
